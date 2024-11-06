@@ -1,0 +1,435 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+nav{
+    width: 100%;
+    background-color: rgb(24,24,24);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+    position: fixed;
+    top: 0;
+}
+.items{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+.search{
+    display: flex;
+    align-items: center;
+    gap: 35px;
+}
+.search-icon button{
+    background: transparent;
+    outline: none;
+    border: none;
+    color: white;
+}
+.search-icon{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border: 0.1px solid white;
+    padding: 10px 20px;
+
+}
+.search-icon:hover{
+    border: 2px solid white;
+}
+.items h4{
+    transition: 0.8s all;
+}
+.items h4:hover{
+    text-decoration: underline;
+}
+
+/* ================================================= */
+
+.second{
+    background-color: rgb(65,69,132);
+    margin-top: 60px;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+.second div span{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+/*  =================================================== */
+
+
+.third{
+    width: 100%;
+    height: 70vh;
+    background-image: url("./Assests/img1.avif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    object-fit: fill;
+    color: white;
+    padding-top: 200px;
+    padding-left: 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.third .buttons{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.third button{
+    padding: 10px 20px;
+    font-size: 15px;
+    border: none;
+    outline: none;
+    transition: 0.8s all;
+}
+.third button:hover{
+    background-color: rgb(188, 182, 182);
+}
+
+/* ============================================= */
+
+.fourth{
+    width: 100%;
+    height: 50vh;
+    background-image: url("./Assests/img2.avif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    object-fit: fill;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 15px;
+    margin-top: 30px;
+}
+.fourth button{
+    padding: 10px 20px;
+    font-size: 15px;
+    transition: 0.8s all;
+    border: none;
+    outline: none;
+}
+.fourth button:hover{
+    background-color: rgb(188, 182, 182);
+}
+
+/* ================================================== */
+
+.fifth{
+    width: 95vw;
+    margin: auto;
+    padding-bottom: 70px;
+}
+.grid{
+    display: flex;
+    gap: 10px;
+}
+.g1{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.grid img{
+    height: 400px;
+    object-fit: contain;
+}
+.g1 button{
+    width: 130px;
+    padding: 10px 20px;
+    font-size: 15px;
+}
+.g1 div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.f1{
+    text-align: center;
+    padding: 35px 0;
+}
+
+/* ====================================================== */
+
+
+.sixth{
+    width: 100%;
+    height: 70vh;
+    background-image: url("./Assests/img3.avif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    object-fit: fill;
+    color: white;
+    padding-top: 200px;
+    padding-left: 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.sixth .buttons{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.sixth button{
+    padding: 10px 20px;
+    font-size: 15px;
+    border: none;
+    outline: none;
+    transition: 0.8s all;
+}
+.sixth button:hover{
+    background-color: rgb(188, 182, 182);
+}
+
+/* ================================================= */
+
+.seventh{
+    width: 100%;
+    height: 70vh;
+    background-image: url("./Assests/img4.avif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    object-fit: fill;
+    color: white;
+    padding-top: 200px;
+    padding-left: 950px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+.seventh .buttons{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.seventh button{
+    padding: 10px 20px;
+    font-size: 15px;
+    border: none;
+    outline: none;
+    transition: 0.8s all;
+}
+.seventh button:hover{
+    background-color: rgb(188, 182, 182);
+}
+
+/* ================================================ */
+
+.shoes{
+    width: 96vw;
+    margin: auto;
+    display: flex;
+    gap: 10px;
+    position: relative;
+}
+.shoes img{
+    height: 400px;
+    object-fit: cover;
+}
+.shoes h2{
+    position: absolute;
+    bottom: 10px;
+    color: white;
+}
+
+/* ================================================ */
+
+.eight{
+    width: 96vw;
+    margin: auto;
+    margin-top: 50px;
+    padding-bottom: 70px;
+}
+.eight h1{
+    text-align: center;
+    padding: 20px;
+}
+.grid{
+    display: flex;
+    gap: 10px;
+}
+.g2{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.grid img{
+    height: 400px;
+    object-fit: contain;
+}
+.g2 button{
+    width: 130px;
+    padding: 10px 20px;
+    font-size: 15px;
+    background-color: black;
+    color: white;
+}
+.g2 div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+/* ================================================ */
+
+.nineth{
+    width: 100%;
+    height: 70vh;
+    background-image: url("./Assests/img5.avif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+    color: white;
+    padding-top: 200px;
+    padding-left: 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.nineth .buttons{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.nineth button{
+    padding: 10px 20px;
+    font-size: 15px;
+    border: none;
+    outline: none;
+    transition: 0.8s all;
+}
+.nineth button:hover{
+    background-color: rgb(188, 182, 182);
+}
+
+/* ================================================ */
+
+.dress{
+    width: 96vw;
+    margin: auto;
+    display: flex;
+    gap: 10px;
+    position: relative;
+}
+.dress img{
+    height: 400px;
+    object-fit: cover;
+}
+.dress h2{
+    position: absolute;
+    bottom: 10px;
+    color: white;
+}
+.h1{
+    text-align: center;
+    padding: 50px 0;
+}
+
+/*  =================================================== */
+
+
+.ele{
+    width: 100%;
+    height: 70vh;
+    background-image: url("./Assests/img6.avif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    object-fit: fill;
+    color: white;
+    padding-top: 200px;
+    padding-left: 600px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin: 50PX 0;
+}
+.ele .buttons{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.ele button{
+    padding: 10px 20px;
+    font-size: 15px;
+    border: none;
+    outline: none;
+    transition: 0.8s all;
+}
+.ele button:hover{
+    background-color: rgb(188, 182, 182);
+}
+
+/* ============================================= */
+
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    background-color: rgb(24,24,24);
+    padding: 30px;
+}
+.f11{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.f4{
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+.f41{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.icons{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.abhi{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.f42{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.logo-with-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid white;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
